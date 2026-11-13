@@ -1,0 +1,33 @@
+{
+  "name": "envcheck",
+  "version": "0.1.0",
+  "description": "Catch missing .env variables before your deploy breaks.",
+  "main": "index.js",
+  "bin": {
+    "envcheck": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nardos-sedjro-monel-houehou/envcheck.git"
+  },
+  "keywords": [],
+  "author": "Nardos Sedjro Monel Houehou (https://www.sedjrohouehou.dev)",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/nardos-sedjro-monel-houehou/envcheck/issues"
+  },
+  "homepage": "https://github.com/nardos-sedjro-monel-houehou/envcheck#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
